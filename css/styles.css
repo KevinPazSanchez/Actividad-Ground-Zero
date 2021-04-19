@@ -15,3 +15,24 @@
 .mn {
     color:#fff;
 }
+
+/* Buttons */
+
+.btn-info {
+    background-color:#21ddfb;
+    padding: 1rem 4rem;
+    border:3px solid transparent;
+    width: 225px;
+}
+
+.btn-info:hover {
+    background-color:transparent;
+    border:3px solid #21ddfb;
+    color: #21ddfb;
+}
+
+.btn-info:active {
+    background-color:transparent !important;
+    border:3px solid #21ddfb !important;
+    color: #21ddfb !important;
+}
