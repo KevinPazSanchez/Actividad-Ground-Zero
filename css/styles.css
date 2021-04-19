@@ -1,0 +1,17 @@
+/* Menu */
+
+#galeria {
+    padding: 10px 10px;
+}
+
+.card {
+    box-shadow: 2px 5px 20px #777;
+}
+
+.modal-content {
+    background:#21ddfb;
+}
+
+.mn {
+    color:#fff;
+}
