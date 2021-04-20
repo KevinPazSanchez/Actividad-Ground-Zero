@@ -36,3 +36,13 @@
     border:3px solid #21ddfb !important;
     color: #21ddfb !important;
 }
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;            
+}
+
+.form {
+    width: 1000px;
+}
