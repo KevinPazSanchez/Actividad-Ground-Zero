@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-        <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -29,33 +30,33 @@
 
 <body>
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active mr-4" href="index.html">Inicio</a>
-                <a class="nav-item nav-link mr-4" href="#">Nosotros</a>
-                <a class="nav-item nav-link mr-4" href="galeria.html">Galeria</a>
-                <a class="nav-item nav-link mr-4" href="#">Contactenos</a>
-                <div><a href="registrate.html" class="btn btn-danger mr-4">REGISTRATE</a></div>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active mr-2" href="index.html"><i class="fas fa-home fa-fw"></i>Inicio</a>
+                    <a class="nav-item nav-link mr-2" href="nosotros.html"><i class="fas fa-info fa-fw"></i>Nosotros</a>
+                    <a class="nav-item nav-link mr-2" href="galeria.html"><i class="fas fa-images fa-fw"></i>Galeria</a>
+                    <a class="nav-item nav-link mr-2" href="contacto.html"><i class="fas fa-envelope fa-fw"></i>Contacto</a>
+                    <div><a href="registrate.html" class="btn btn-danger mr-4">REGISTRATE</a></div>
+                </div>
             </div>
-        </div>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 mr-4" type="submit">Buscar</button>
-        </form>
-        <a class="navbar-brand" href="#">
-            <img src="imagenes/grupo_zero.jpg" width="50" height="50" alt="">
-            <div><a href="#" class="btn btn-danger mr-4">INGRESA</a></div>
-        </a>
-        </div>
-    </nav>
-    <br>
-    <!-- fin menu -->
-    <div id="about" class="container">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 mr-4" type="submit">Buscar</button>
+            </form>
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/grupo_zero.jpg" width="40" height="40" alt="">
+                <div><a href="ingreso.html" class="btn btn-danger mr-4">INGRESAR</a></div>
+            </a>
+        </nav>
+        <br>
+        <!-- fin menu --> 
+        <div id="about" class="container">
         <div class="starter-template">
             <h3 align="center" class="mb-5">GALERIA</h3>
             <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officiis consequuntur neque
@@ -255,10 +256,10 @@
                 </div>
             </div>
         </section>
-    </div>    
-    <!-- fin galeria -->
-    <!-- Footer -->
-    <footer class="bg-dark text-center text-white">
+        </div>    
+        <!-- fin galeria -->
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <h6 style="font-weight:bold">Síguenos en:</h6>
@@ -283,7 +284,8 @@
             <a class="text-white"></a>
         </div>
         <!-- Copyright -->
-    </footer>
-    <!-- Fin Footer -->
+        </footer>
+        <!-- Fin Footer -->
+    </div>
 </body>
 </html>
